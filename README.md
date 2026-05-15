@@ -67,7 +67,7 @@ Baseline Model Output:
 Altered Model Output:
 ![alt text](run_20260514_104847_exp3_strength0.7_colorFalse_sharp1.2_passes2.png)
 
+![alt text](exp4_strength0.85_colorTrue_sharp1.2_passes2.png)
+
 Altered Model - Varying Strengths Example:
 ![alt text](strength_demonstration_output.png)
-
-![alt text](exp4_strength0.85_colorTrue_sharp1.2_passes2.png)

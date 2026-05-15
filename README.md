@@ -63,12 +63,15 @@ Altered Model:
   - The altered model still has some trouble with more complex reference images. The style image appears to be prioritized, making it difficult to visually identify the content from the content image.
 
 Baseline Model Output:
+
 ![alt text](run_20260514_110739_baseline.png)
 
 Altered Model Output:
+
 ![alt text](run_20260514_104847_exp3_strength0.7_colorFalse_sharp1.2_passes2-1-1.png)
 
 ![alt text](exp4_strength0.85_colorTrue_sharp1.2_passes2.png)
 
 Altered Model - Varying Strengths Example:
+
 ![alt text](strength_demonstration_output.png)

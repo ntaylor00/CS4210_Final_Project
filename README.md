@@ -51,8 +51,23 @@ Install the required modules if not already installed:
   - experiments/ --> altered model output images
   - comparisons/ --> comparison between baseline and altered model outputs
 
-## Example Results:
+## Results:
+The pre-trained TensorFlow Hub model served as a good baseline as it already preserved both style and content fairly well, however the content was not as clear as it could be, especially with more complex styles and/or busier content images.
+
+Altered Model:
+- Strengths:
+  - The experiment grid allows for more variation in image creation. Images can be created with different preservation strengths (more focus on style vs more focus on content preservation), which allows the generated image to look more like the style or content image depending on user preference.
+
+- Weaknesses:
+  - The altered model still has some trouble with more complex reference images. The style image appears to be prioritized, making it difficult to visually identify the content from the content image.
+
 Baseline Model Output:
 ![alt text](run_20260514_110739_baseline.png)
+
 Altered Model Output:
-![alt text](run_20260514_110739_exp1_strength1.0_colorFalse_sharp1.0_passes1.png)
+![alt text](run_20260514_104847_exp3_strength0.7_colorFalse_sharp1.2_passes2.png)
+
+Altered Model - Varying Strengths Example:
+![alt text](strength_demonstration_output.png)
+
+![alt text](exp4_strength0.85_colorTrue_sharp1.2_passes2.png)

@@ -18,10 +18,10 @@ Rather than creating a custom model from scratch, this project now builds on the
 ## Updates:
 
 The original notebook (just the pre-trained model from TensorFlow Hub) remains in the project directory:
-- [style_transfer_original.ipynb]
+- style_transfer_original.ipynb
 
 The overall model flow / pipeline has been updated in the main notebook:
-- [style_transfer.ipynb]
+- style_transfer.ipynb
 
 The updated notebook builds off of the TensorFlow Hub model, adding the following features:
 - Multiple style passes to improve style transfer success
@@ -31,6 +31,7 @@ The updated notebook builds off of the TensorFlow Hub model, adding the followin
 
 ## Requirements:
 Install the required modules if not already installed:
+- torch
 - tensorflow
 - tensorflow_hub
 - numpy
@@ -38,8 +39,8 @@ Install the required modules if not already installed:
 - Pillow
 
 ## How to Run:
-1. Put content image in /content_images, or skip this step to draw from existing demo images.
-2. Put style image in /style_images, or skip this step to draw from existing demo images.
+1. Put content image in content/, or skip this step to draw from existing demo images.
+2. Put style image in style/, or skip this step to draw from existing demo images.
 3. Run style_transfer.ipynb
 
 ## Main Files / Folder Structure:
@@ -65,7 +66,7 @@ Baseline Model Output:
 ![alt text](run_20260514_110739_baseline.png)
 
 Altered Model Output:
-![alt text](run_20260514_104847_exp3_strength0.7_colorFalse_sharp1.2_passes2.png)
+![alt text](run_20260514_104847_exp3_strength0.7_colorFalse_sharp1.2_passes2-1-1.png)
 
 ![alt text](exp4_strength0.85_colorTrue_sharp1.2_passes2.png)
 
